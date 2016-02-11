@@ -43,12 +43,17 @@
 
 .three.columns{
   border-radius: 5px;
-  background-color: pink;
+  background-color: #FFE0F4;
 }
 
 .nine.columns{
   border-radius: 5px;
-  background-color: pink;
+  background-color: #FFE0F4;
+}
+
+.four.columns{
+  border-radius: 5px;
+  background-color: #FFE0F4;
 }
 
 /* For devices larger than 400px */
