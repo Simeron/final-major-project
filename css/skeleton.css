@@ -41,6 +41,14 @@
   float: left;
   box-sizing: border-box; }
 
+  .three-columns.columns{
+    background-color: blue;
+  }
+
+  .nine-columns.columns{
+    background-color: pink;
+  }
+
 /* For devices larger than 400px */
 @media (min-width: 400px) {
   .container {
