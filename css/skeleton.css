@@ -72,6 +72,11 @@
   width:250px;
 }
 
+.twelve.columns{
+  border-radius: 5px;
+  background-color: #FFE0F4;
+}
+
 /* For devices larger than 400px */
 @media (min-width: 400px) {
   .container {
