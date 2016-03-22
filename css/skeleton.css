@@ -28,6 +28,12 @@
 
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@font-face{
+  font-family: 'moon';
+   src: url(moon_light.otf);
+   src: url(moon_bold.otf);
+}
 .container {
   position: relative;
   width: 100%;
@@ -49,17 +55,20 @@
   border-radius: 5px;
   background-color: #ebf4f3;
   height:59px;
+  font-family: 'moon';
 }
 
 .nine.columns{
   border-radius: 5px;
   background-color: #ebf4f3;
+  font-family: 'moon';
 }
 
 .nine.columns nav ul li{
   text-align: center;
   display: inline-block;
   width:170px; /* fixed width */
+  font-family: 'moon';
 }
 
 .four.columns{
@@ -67,6 +76,7 @@
   background-color: #ebe7f2;
   text-align: center;
   height: 250px;
+  font-family: 'moon';
 }
 
 .four.columns img{
@@ -79,6 +89,7 @@
 .twelve.columns{
   border-radius: 5px;
   background-color: #ebf4f3;
+  font-family: 'moon';
 }
 
 
@@ -102,6 +113,7 @@
     background-color:;
     padding: 90px 0;
     font-size: 18px;
+    font-family: 'moon';
 }
 
 #middle-text{
@@ -112,6 +124,7 @@
     background-color:;
     padding: 180px 0;
     font-size: 18px;
+    font-family: 'moon';
 }
 
 #right-text{
@@ -122,6 +135,7 @@
     background-color:;
     padding: 180px 0;
     font-size: 18px;
+    font-family: 'moon';
 }
 
 
@@ -208,7 +222,7 @@ body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
-  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'moon'     /*"Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
   color: #222; }
 
 
