@@ -81,6 +81,19 @@
   background-color: #ebf4f3;
 }
 
+
+.circleBase {
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+.type3 {
+    width: 317px;
+    height: 305px;
+    background: #ebf4f3;
+    /*border: 30px solid blue;*/
+}
+
 /* For devices larger than 400px */
 @media (min-width: 400px) {
   .container {
