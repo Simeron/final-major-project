@@ -51,23 +51,37 @@
   font-family: 'Work Sans', sans-serif; this is the font that I want to use
 }*/
 
-.three.columns{
-  border-radius: 5px;
-  background-color: black;
-  height:30px;
+.twelve.columns nav ul li{
+  text-align: center;
+  display: inline-block;
+  width:170px; /* fixed width */
   font-family: 'moon';
   color; white;
+  text-decoration: none;
+}
+
+
+.three.columns{
+  /*border-radius: 5px;*/
+  background-color: whitesmoke;
+  height:50px;
+  font-family: 'moon';
+  font-color; white !important;
   text-decoration: none;
   
 }
 
+.three.columns img{
+  height: 60px;
+}
+
 .nine.columns{
-  border-radius: 5px;
-  background-color: black;
+  /*border-radius: 5px;*/
+  background-color: whitesmoke;
   font-family: 'moon';
   color; white;
   text-decoration: none;
-  height: 30px;
+  height: 50px;
   font-size: 13px;
 }
 
@@ -81,7 +95,7 @@
 }
 
 .four.columns{
-  border-radius: 5px;
+  /*border-radius: 5px;*/
   background-color: #ebe7f2;
   text-align: center;
   height: 330px;
