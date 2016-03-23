@@ -70,6 +70,10 @@
   float: right; 
 }
 
+.img nav ul li{
+  position: fixed; /*(but I do end up losing the footer)*/
+}  
+
 
 .three.columns{
   /*border-radius: 5px;*/
@@ -121,10 +125,11 @@
 }
 
 .twelve.columns{
-  border-radius: 5px;
-  background-color: #ebf4f3;
+  /*border-radius: 5px;*/
+  /*background-color: #D1D0CE;*/
   font-family: 'moon';
   text-align: center;
+  position: fixed;
 }
 
 
@@ -291,9 +296,14 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #1EAEDB; }
+  color: #000000;
+  text-decoration: none;
+ }  /* use to be #1EAEDB*/
 a:hover {
-  color: #0FA0CE; }
+  color: #657383; 
+  text-decoration: line-through;
+}  /*use to be #0FA0CE*/
+
 
 
 /* Buttons
