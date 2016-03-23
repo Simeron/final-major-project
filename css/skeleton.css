@@ -51,13 +51,23 @@
   font-family: 'Work Sans', sans-serif; this is the font that I want to use
 }*/
 
+.container{
+  z-index: -10
+}
+
+.twelve.columns img{
+  float: left;
+  margin-left: 10px;
+}
+
 .twelve.columns nav ul li{
   text-align: center;
   display: inline-block;
-  width:170px; /* fixed width */
+  width:100px; /* fixed width */
   font-family: 'moon';
   color; white;
   text-decoration: none;
+  float: right; 
 }
 
 
@@ -83,12 +93,13 @@
   text-decoration: none;
   height: 50px;
   font-size: 13px;
+  margin-left: 0px;
 }
 
 .nine.columns nav ul li{
   text-align: center;
   display: inline-block;
-  width:170px; /* fixed width */
+  width:100px; /* fixed width */
   font-family: 'moon';
   color; white;
   text-decoration: none;
@@ -113,6 +124,7 @@
   border-radius: 5px;
   background-color: #ebf4f3;
   font-family: 'moon';
+  text-align: center;
 }
 
 
@@ -192,7 +204,7 @@
   .nine.columns                   { width: 74.0%;          }
   .ten.columns                    { width: 82.6666666667%; }
   .eleven.columns                 { width: 91.3333333333%; }
-  .twelve.columns                 { width: 100%; margin-left: 0; }
+  .twelve.columns                 { width: 100%; margin-left: 0;}
 
   .one-third.column               { width: 30.6666666667%; }
   .two-thirds.column              { width: 65.3333333333%; }
