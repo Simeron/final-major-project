@@ -113,8 +113,9 @@
   /*border-radius: 5px;*/
   background-color: #ebe7f2;
   text-align: center;
-  height: 330px;
+  height: 400px;
   font-family: 'moon';
+  font-size: 14px;
 }
 
 .four.columns img{
@@ -207,8 +208,7 @@
   .columns:first-child {
     margin-left: 0; }
   .four.columns img{
-    width: 100%;
-  }
+    width: 100%;}
 
   .one.column,
   .one.columns                    { width: 4.66666666667%; }
