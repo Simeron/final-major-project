@@ -125,6 +125,10 @@
   width:100%;
 }
 
+.four.columns.image{
+  background-color: transparent;
+}
+
 .twelve.columns{
   /*border-radius: 5px;*/
   /*background-color: #D1D0CE;*/
