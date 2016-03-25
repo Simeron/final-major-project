@@ -121,7 +121,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width:330px;
+  width:100%;
 }
 
 .twelve.columns{
@@ -206,6 +206,9 @@
   .column:first-child,
   .columns:first-child {
     margin-left: 0; }
+  .four.columns img{
+    width: 100%;
+  }
 
   .one.column,
   .one.columns                    { width: 4.66666666667%; }
