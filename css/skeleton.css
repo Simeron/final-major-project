@@ -34,6 +34,7 @@
    src: url(moon_light.otf);
    src: url(moon_bold.otf);
 }
+
 .container {
   position: relative;
   width: 100%;
@@ -205,7 +206,7 @@
   padding: 0 20px;
 } /*this is from the base.css demo file*/
 
-section.module:last-child {
+section.module:last-child { /*got the parallex scroll from http://callmenick.com/post/simple-parallax-scrolling-effect and that includes the css as well, the little bit above and the some of this going down as well*/
   margin-bottom: 0;
 }
 section.module h2 {
@@ -241,6 +242,7 @@ section.module.parallax h1 {
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
+  font-family: "moon";
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 section.module.parallax-1 {
