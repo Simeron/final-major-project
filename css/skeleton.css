@@ -35,6 +35,20 @@
    src: url(moon_bold.otf);
 }
 
+@font-face{
+  font-family: 'Chivo-Regular';
+    src: url(Chivo-Regular.ttf);
+    src: url(Chivo-Black.ttf);
+    src: url(Chivo-BlackItalic.ttf);
+    src: url(Chivo-Italic.ttf);
+}
+
+@font-face{
+  font-family: 'VarelaRound-Regular.ttf';
+    src: url(VarelaRound-Regular.ttf)
+
+}
+
 .container {
   position: relative;
   width: 100%;
@@ -115,7 +129,7 @@
   background-color: #ebe7f2;
   text-align: center;
   height: 400px;
-  font-family: 'moon';
+  font-family: 'work sans';
   font-size: 14px;
   padding: 5%;
 }
