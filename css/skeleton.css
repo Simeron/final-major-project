@@ -265,10 +265,10 @@ section.module.parallax-1 {
   background-image: url(../images/parallax1.jpg);  /*This is one of the sites which helped with the images https://teamtreehouse.com/community/css-external-stylesheet-and-background-image*/ /*background-image: url("http://onehdwallpaper.com/wp-content/uploads/2015/07/Free-Download-Sea-View-Pic.jpeg");*/
 }
 section.module.parallax-2 {
-  background-image: url("http://www.planwallpaper.com/static/images/new-wallpaper-161.jpg");
+  background-image: url(../images/parallax2.png);  /*http://www.planwallpaper.com/static/images/new-wallpaper-161.jpg*/
 }
 section.module.parallax-3 {
-  background-image: url("http://www.intrawallpaper.com/static/images/awesome-desktop-backgrounds-hd-star-trek-background-high.jpg");
+  background-image: url(../images/parallax3.png);  /*"http://www.intrawallpaper.com/static/images/awesome-desktop-backgrounds-hd-star-trek-background-high.jpg"*/
 }
 
 @media all and (min-width: 600px) {
