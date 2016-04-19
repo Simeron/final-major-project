@@ -147,7 +147,7 @@
 
 .twelve.columns{
   /*border-radius: 5px;*/
-  /*background-color: #D1D0CE;*/
+  background-color: white; /*#D1D0CE*/
   font-family: 'moon';
   text-align: center;
   position: fixed;
