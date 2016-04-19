@@ -124,7 +124,7 @@
   text-decoration: none;
 }
 
-.four.columns{
+.four.columns.text{
   /*border-radius: 5px;*/
   background-color: #ebe7f2;
   text-align: center;
@@ -134,15 +134,16 @@
   padding: 5%;
 }
 
-.four.columns img{
+/*.four.columns img{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width:100%;
+  width:100%;*/
 }
 
 .four.columns.image{
   background-color: transparent;
+  padding: 0px;
 }
 
 .twelve.columns{
@@ -218,7 +219,7 @@
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 0px;
 } /*this is from the base.css demo file*/
 
 section.module:last-child { /*got the parallex scroll from http://callmenick.com/post/simple-parallax-scrolling-effect and that includes the css as well, the little bit above and the some of this going down as well*/
