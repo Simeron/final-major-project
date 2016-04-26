@@ -1,0 +1,263 @@
+@font-face{
+  font-family: 'moon';
+   src: url(moon_light.otf);
+   src: url(moon_bold.otf);
+}
+
+@font-face{
+  font-family: 'Chivo-Regular';
+    src: url(Chivo-Regular.ttf);
+    src: url(Chivo-Black.ttf);
+    src: url(Chivo-BlackItalic.ttf);
+    src: url(Chivo-Italic.ttf);
+}
+
+@font-face{
+  font-family: 'VarelaRound-Regular.ttf';
+    src: url(VarelaRound-Regular.ttf)
+
+}
+
+body 
+{
+	font-family: 'moon'; 
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box; }
+.column,
+.columns {
+  width: 100%;
+  float: left;
+  box-sizing: border-box; }
+
+/*.font-family{
+  font-family: 'Work Sans', sans-serif; this is the font that I want to use
+}*/
+
+.container{
+  z-index: -10
+}
+
+.twelve.columns img{
+  float: left;
+  margin-left: 10px;
+}
+
+.twelve.columns nav ul li{
+  text-align: center;
+  display: inline-block;
+  width:100px; /* fixed width */
+  font-family: 'moon';
+  color; white;
+  text-decoration: none;
+  float: right; 
+}
+
+.img nav ul li{
+  position: fixed; /*(but I do end up losing the footer)*/
+}  
+
+
+.three.columns{
+  /*border-radius: 5px;*/
+  background-color: whitesmoke;
+  height:50px;
+  font-family: 'moon';
+  font-color; white !important;
+  text-decoration: none;
+  
+}
+
+.three.columns img{
+  height: 60px;
+}
+
+.nine.columns{
+  /*border-radius: 5px;*/
+  background-color: whitesmoke;
+  font-family: 'moon';
+  color; white;
+  text-decoration: none;
+  height: 50px;
+  font-size: 13px;
+  margin-left: 0px;
+}
+
+.nine.columns nav ul li{
+  text-align: center;
+  display: inline-block;
+  width:100px; /* fixed width */
+  font-family: 'moon';
+  color; white;
+  text-decoration: none;
+}
+
+.four.columns.text{
+  /*border-radius: 5px;*/
+  background-color: #ebe7f2;
+  text-align: center;
+  height: 400px;
+  font-family: 'work sans';
+  font-size: 14px;
+  padding: 5%;
+}
+
+/*.four.columns img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:100%;*/
+}
+
+.four.columns.image{
+  background-color: transparent;
+  padding: 0px;
+}
+
+.twelve.columns{
+  /*border-radius: 5px;*/
+  background-color: white; /*#D1D0CE*/
+  font-family: 'moon';
+  text-align: center;
+  position: fixed;
+}
+
+
+.circleBase {
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+.type3 {
+    width: 317px;
+    height: 305px;
+    background: #ebf4f3;
+    /*border: 30px solid blue;*/
+}
+
+#left-text{
+     width:250px;
+    text-align: center;
+    margin-left:30px;
+    margin-top:40px;
+    background-color:;
+    padding: 90px 0;
+    font-size: 18px;
+    font-family: 'moon';
+}
+
+#middle-text{
+     width:250px;
+    text-align: center;
+    margin-left:30px;
+    margin-top:-50px;
+    background-color:;
+    padding: 180px 0;
+    font-size: 18px;
+    font-family: 'moon';
+}
+
+#right-text{
+  width:250px;
+    text-align: center;
+    margin-left:30px;
+    margin-top:-50px; 
+    background-color:;
+    padding: 180px 0;
+    font-size: 18px;
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#circleBase .type3-image{
+  width:250px;
+    text-align: center;
+    margin-left:30px;
+    margin-top:-50px; 
+    background-color:;
+    padding: 180px 0;
+    background-color: red;
+}
+
+.main {
+  display: block;
+  background-color: #fff;
+}
+
+.container2 {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 0px;
+} /*this is from the base.css demo file*/
+
+section.module:last-child { /*got the parallex scroll from http://callmenick.com/post/simple-parallax-scrolling-effect and that includes the css as well, the little bit above and the some of this going down as well*/
+  margin-bottom: 0;
+}
+section.module h2 {
+  margin-bottom: 40px;
+  font-family: "moon_bold";
+  font-size: 30px;
+}
+section.module p {
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-weight: 300;
+}
+section.module p:last-child {
+  margin-bottom: 0;
+}
+section.module.content {
+  padding: 40px 0;
+}
+section.module.parallax {
+  /*height: 600px;*/
+  height: 100%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+      display: flex;
+    align-content: center;
+    align-items: center;
+}
+section.module.parallax h1 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 48px;
+  line-height: 600px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "moon";
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+section.module.parallax-1 {
+  background-image: url(../images/parallax1.jpg);  /*This is one of the sites which helped with the images https://teamtreehouse.com/community/css-external-stylesheet-and-background-image*/ /*background-image: url("http://onehdwallpaper.com/wp-content/uploads/2015/07/Free-Download-Sea-View-Pic.jpeg");*/
+}
+section.module.parallax-2 {
+  background-image: url(../images/parallax2.png);  /*http://www.planwallpaper.com/static/images/new-wallpaper-161.jpg*/
+}
+section.module.parallax-3 {
+  background-image: url(../images/parallax3.png);  /*"http://www.intrawallpaper.com/static/images/awesome-desktop-backgrounds-hd-star-trek-background-high.jpg"*/
+}
+
+html, body, main
+{
+	height: 100%;
+} 
+
+
+
+#logo
+{
+	max-width: calc(100% - 20px);
+}
